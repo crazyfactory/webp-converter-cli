@@ -6,7 +6,6 @@
     "test": "xo",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "version": "1.0.1",
   "preferGlobal": "true",
   "bin": {
     "webpc": "./bin/index.js"
