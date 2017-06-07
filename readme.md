@@ -1,5 +1,14 @@
 # webp-converter-cli
 
+[![npm](https://img.shields.io/npm/v/@crazyfactory/webp-converter-cli.svg)](http://www.npmjs.com/package/@crazyfactory/webp-converter-cli)
+[![Build Status](https://travis-ci.org/crazyfactory/webp-converter-cli.svg?branch=master)](https://travis-ci.org/crazyfactory/webp-converter-cli)
+[![dependencies Status](https://david-dm.org/crazyfactory/webp-converter-cli/status.svg)](https://david-dm.org/crazyfactory/webp-converter-cli)
+[![devDependencies Status](https://david-dm.org/crazyfactory/webp-converter-cli/dev-status.svg)](https://david-dm.org/crazyfactory/tinka?type=dev)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Greenkeeper badge](https://badges.greenkeeper.io/crazyfactory/webp-converter-cli.svg)](https://greenkeeper.io/)
+
+Based on [hoipo/webp-converter-cli](https://github.com/hoipo/webp-converter-cli)
+
 The CommandLine tool for converting jpg or png files to webp, recursively.
 
 ## Awsome featurn ✧٩(ˊωˋ*)و✧
@@ -9,7 +18,7 @@ so enjoy it !
 
 ## Installation
 
-    $ npm install -g webp-converter-cli
+    $ npm i -g @crazyfactory/webp-converter-cli
 
 ## Usage
 

@@ -1,2 +1,4 @@
-node_modules
+# dev environment
+.idea/
+node_modules/
 npm-debug.log

@@ -1,13 +1,16 @@
 {
-  "name": "webp-converter-cli",
-  "version": "0.0.5",
+  "name": "@crazyfactory/webp-converter-cli",
   "description": "a cli tool to convert images to webp format.",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "version": "1.0.1",
   "preferGlobal": "true",
-  "bin": {"webpc": "./index.js"},
+  "bin": {
+    "webpc": "./bin/index.js"
+  },
   "keywords": [
     "webp",
     "convert",
@@ -16,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoipo/webp-converter-cli.git"
+    "url": "https://github.com/crazyfactory/webp-converter-cli.git"
   },
   "author": "Hoipo Cheung",
   "license": "MIT",
@@ -25,6 +28,18 @@
     "commander": "^2.9.0",
     "cwebp-bin": "^3.2.0",
     "image-type": "^2.1.0",
-    "read-chunk": "^2.0.0"
-  }
+    "read-chunk": "^2.0.0",
+    "update-notifier": "^2.2.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^6.3.6",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "import/no-unresolved": 0
+    }
+  },
+  "false": {}
 }
